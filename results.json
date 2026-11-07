@@ -1,0 +1,38 @@
+{
+ "No agent (designer's curve)": {
+  "d7_retention": 0.5155308641975309,
+  "d14_retention": 0.25350617283950616,
+  "revenue_per_install": 0.4947014814814816,
+  "total_revenue": 13356.940000000002,
+  "median_level": 18.333333333333332,
+  "changes_shipped": 0,
+  "monetisation_levels_eased": 0,
+  "rollbacks": 0,
+  "d7_change_pts": 0.0,
+  "revenue_change_pct": 0.0
+ },
+ "Naive agent (no tests, no guardrails)": {
+  "d7_retention": 0.5647901234567901,
+  "d14_retention": 0.3033950617283951,
+  "revenue_per_install": 0.493358888888889,
+  "total_revenue": 13320.690000000004,
+  "median_level": 25.0,
+  "changes_shipped": 17.333333333333332,
+  "monetisation_levels_eased": 1,
+  "rollbacks": 0,
+  "d7_change_pts": 4.925925925925922,
+  "revenue_change_pct": -0.2713944960447412
+ },
+ "Guarded LiveOps agent": {
+  "d7_retention": 0.5266913580246914,
+  "d14_retention": 0.26667901234567903,
+  "revenue_per_install": 0.49446629629629635,
+  "total_revenue": 13350.590000000002,
+  "median_level": 20.333333333333332,
+  "changes_shipped": 2.3333333333333335,
+  "monetisation_levels_eased": 0,
+  "rollbacks": 7,
+  "d7_change_pts": 1.1160493827160445,
+  "revenue_change_pct": -0.04754082896233358
+ }
+}
